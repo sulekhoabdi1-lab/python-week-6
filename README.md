@@ -1,3 +1,4 @@
+Python-week-6
 - times_table.py: Generates and prints a multiplication table from 1 to 10 for any user-inputted number using a range() loop.
 - skip_counter.py: Demonstrates skip counting using range() with steps, printing even numbers up to 20 and counting down from 10 to 0.
 - loop_hospital.py: Diagnoses and fixes classic loop bugs (off-by-one bounds, infinite loops, and misplaced accumulators) with # FIXED comments.
