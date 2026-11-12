@@ -1,8 +1,10 @@
-Python-week-6
-- times_table.py: Generates and prints a multiplication table from 1 to 10 for any user-inputted number using a range() loop.
-- skip_counter.py: Demonstrates skip counting using range() with steps, printing even numbers up to 20 and counting down from 10 to 0.
-- loop_hospital.py: Diagnoses and fixes classic loop bugs (off-by-one bounds, infinite loops, and misplaced accumulators) with # FIXED comments.
-- README.md: Assignment documentation and reflections on loop behavior and range bounds.
+# Week 6 Assignment: Safe Functions
 
-An off-by-one error is a logic mistake where a loop executes one time too many or one time too few, usually due to incorrect boundary numbers. Remembering that the stop value in range() is exclusive (meaning it stops right before reaching it) helps you set the correct bounds and avoid this
-error.
+## Files
+
+- safe_tools.py - Contains three safe functions that handle division errors, invalid numbers, and missing dictionary keys.
+- README.md - Describes the assignment files and explains why an if check alone cannot catch invalid number input.
+
+## Why can the if check not catch "abc" on its own?
+
+An if check can check conditions before converting text into a number, but it cannot catch a ValueError raised by int("abc"). The try/except block catches this specific error and prevents the program from crashing.
